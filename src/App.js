@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route  } from 'react-router-dom';
 import SignUp from './pages/SignUp';
-
+import ResetPassword from "./pages/ResetPassword";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
      <BrowserRouter>
       <Routes>
-        <Route index element={<SignUp/>}/>       
+        <Route index element={<ResetPassword/>}/>       
         
 
       </Routes>
