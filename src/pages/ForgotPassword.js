@@ -1,26 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default function ForgotPassword() {
-  return (
-    <div>
-      <div>
-        <h1>Enter the Email address associated with your account, and we'll send you a code to reset your password.</h1>
-      </div>
+    return ( <
+        > < div >
+        <
+        div className = "head" >
+        <
+        h4 > Enter the Email address associated with your account, and we 'll send you a code to reset your password.</h4> <
+        /div>
 
-      <form>
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email address"
-        />
-        <br />
-        <br />
-        
-        <button type="submit">Continue</button>
-      </form>
-    </div>
-  );
+        <
+        div className = 'Email' >
+        <
+        input type = 'email'
+        id = 'email'
+        name = 'email'
+        placeholder = 'Enter your email address' > < /input><br></br >
+        <
+        /div>
+
+        <
+        /div><button type="submit">Continue</button > < />
+
+        <
+        /div>
+
+    );
 }
