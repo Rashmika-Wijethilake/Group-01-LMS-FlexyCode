@@ -1,9 +1,8 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import ResetPassword from "./pages/ResetPassword";
 import ForgotPassword from './pages/ForgotPassword';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SignUp from './pages/SignUp';
 
 
@@ -12,13 +11,16 @@ function App() {
     <div className="App">
      <BrowserRouter>
       <Routes>
-        {/* <Route index element={<SignUp/>}/>      
-        <Route index element={<ResetPassword/>}/>   */}
-        <Route index element={<ForgotPassword/>}/>  
+        {/* <Route index element={<SignUp/>}/>       */}
+        {/* <Route index element={<ResetPassword/>}/>   */}
+        {/* <Route index element={<ForgotPassword/>}/>   */}
+        <Route index element={<Login/>}/>  
         
       </Routes>
       </BrowserRouter>
 
     </div>
+  )
+};
 
-export default App;
+export default App
