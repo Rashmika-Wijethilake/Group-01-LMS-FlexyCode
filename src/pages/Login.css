@@ -1,0 +1,93 @@
+body {
+  background-color: #e2effc; /* Replace with your preferred background color */
+}
+
+img {
+  max-width: 250px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.login-container1 {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 1%;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.login-container {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background-color: #ffffff;
+    min-height: 350px;
+  }
+
+  .bold-paragraph {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .bold-paragraph1 {
+    font-size: 18px;
+    color: #cccccc;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .input-container input {
+    width: 85%;
+    padding: 12px;
+    border: 3px solid #ccc;
+    border-radius: 12px;
+    font-size: medium;
+  }
+  
+  .remember-me {
+    display: flex;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password a {
+    padding-right: 20px;
+    align-items: right;
+    margin-bottom: 10px;
+    color: #4898ee;
+    padding-left: 180px;
+  }
+
+  .form-row {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center; /* Align items vertically in the middle */
+    justify-content: space-between; /* Add space between the two elements */
+  }
+  
+  .login-button {
+    background-color: #4898ee;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  
+  .no-account a {
+    color: #4898ee;
+    margin-bottom: 20px;
+  }
+  
