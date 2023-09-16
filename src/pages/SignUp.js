@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function SignUp() {
+
+  function goToNextPage() {
+    window.location.href = 'nextpage.html';
+  }
+
   return (
     <div>
       
@@ -28,7 +33,7 @@ export default function SignUp() {
         <input type="checkbox" id="checkbox" name="checkbox"></input>
         <label>I agree to All terms & Conditions</label><br/><br/>
 
-        <button>Sign Up</button>
+        <button onClick={goToNextPage}>Sign Up</button>
 
       </form>
 
@@ -42,4 +47,8 @@ export default function SignUp() {
     </div>
   )
 }
+
+
+
+
 
