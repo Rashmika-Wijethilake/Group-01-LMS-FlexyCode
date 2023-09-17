@@ -11,10 +11,10 @@ function App() {
     <div className="App">
      <BrowserRouter>
       <Routes>
-        {/* <Route index element={<SignUp/>}/>       */}
+        { <Route index element={<SignUp/>}/>       }
         {/* <Route index element={<ResetPassword/>}/>   */}
         {/* <Route index element={<ForgotPassword/>}/>   */}
-        <Route index element={<Login/>}/>  
+         {/*<Route index element={<Login/>}/>  */}
         
       </Routes>
       </BrowserRouter>
