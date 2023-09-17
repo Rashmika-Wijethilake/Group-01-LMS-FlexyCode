@@ -1,0 +1,42 @@
+.dashboard {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+
+.left-corner {
+    background-color: #ADD6FF;
+    width: 50%;
+    text-align: center;
+}
+  
+.edu-image1 img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.main-description {
+    color:#031F4B;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.middle-image{
+    max-width: 100%;
+}
+  
+.other-description {
+    color: #04396C;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.open-inverted{
+    text-align-last: left;
+    width: auto;
+}
+
+.close-inverted{
+    text-align-last: right;
+}
