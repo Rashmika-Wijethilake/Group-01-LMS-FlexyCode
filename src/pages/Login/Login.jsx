@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import './Login.css'; // We'll create this CSS file
 
 function Login() {
@@ -12,59 +13,62 @@ function Login() {
 
   return (
 
-<div>
-    <div className='img' >
-      <img src="loginicon.png" alt="Logo" />
-    </div>
+  <div className='centered-content'>
+      <div className='img-lg' >
+        <img src="loginicon.png" alt="Logo" />
+      </div> 
 
-    <div className="login-container1">
+      <div className="login-container">
+        <p1 className='bold-paragraph'>Hello There, Welcome back</p1>
+        <br/><br/><p1 className='bold-paragraph1'> Please enter your details</p1>
+        <form>
+        <div className="input-container">
+          <input
+            type="text"
+            placeholder="Email Address"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+        </div>
 
-    <div className="login-container">
-      <p1 className='bold-paragraph'>Hello There, Welcome back</p1>
-      <br/><br/><p1 className='bold-paragraph1'> Please enter your details</p1>
-      <div className="input-container">
-        <input
-          type="text"
-          placeholder="Email Address"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
+        <div className="input-container">
+          <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </div>
+
+        <div className="form-row">
+          <div className="remember-me">
+            <label >
+              <input
+                type="checkbox"
+                checked={rememberMe}
+                onChange={() => setRememberMe(!rememberMe)}
+              />
+              Remember Me
+            </label>
+            <label className="forgot-password">
+              <Link to='/forgotpassword'>Forgot Password</Link>
+            </label>
+            </div>
+        </div>
+
+        <button className="login-button" onClick={handleLogin}>
+          Sign In
+        </button>
+        </form>
+
+        <div className="no-account">
+          <p className='bold-paragraph1'>Don't have an account? <Link to="/Signup">Sign up</Link></p>
+        </div>
+       
+
       </div>
-      <div className="input-container">
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-      </div>
-      <div className="form-row">
-        <div className="remember-me">
-          <label >
-            <input
-              type="checkbox"
-              checked={rememberMe}
-              onChange={() => setRememberMe(!rememberMe)}
-            />
-            Remember Me
-          </label>
-          <label className="forgot-password">
-            <a href="#">Forgot Password</a>
-          </label>
-          </div>
-      </div>
 
-      <button className="login-button" onClick={handleLogin}>
-        Sign In
-      </button>
-
-      <div className="no-account">
-        <p className='bold-paragraph1'>Don't have an account? <a href="#">Sign up</a></p>
-      </div>
-
-    </div>
   </div>
-</div>
 
    
   );

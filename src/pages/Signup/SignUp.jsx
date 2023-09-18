@@ -23,13 +23,13 @@ export default function SignUp() {
         </div>
 
         <div className='open-inverted'>
-            <img src= {invertedclose} alt=""/>
+            <img src= {invertedopen} alt=""/>
         </div>
 
         <span className='other-description'>Unlock the Future of Education and Training with <br/>Seamless Online Learning Solutions</span>
         
         <div className='close-inverted'>
-            <img src= {invertedopen} alt=""/>
+            <img src= {invertedclose} alt=""/>
         </div>      
     </div>
 
@@ -72,7 +72,7 @@ export default function SignUp() {
        <button class="btn">Signup</button>
 
        <div class="signup-link">
-         <p>Already have an Account? <a href="#" >Sign in</a></p>
+         <p>Already have an Account? <Link to='/Login'>Sign in</Link></p>
        </div>
  
   </div>
