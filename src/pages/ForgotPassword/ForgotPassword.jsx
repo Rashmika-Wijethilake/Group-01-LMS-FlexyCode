@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../ForgotPassword/ForgotPassword.css';
+import { Link } from 'react-router-dom';
 
 export default function ForgotPassword() {
     return ( 
@@ -15,7 +16,7 @@ export default function ForgotPassword() {
                 </div>
               </div>
 
-              <button type="submit" className='btn-fp'>Continue</button>
+              <Link to='/resetpassword' type="submit" className='btn-fp'>Continue</Link>
           </form>
         </div>
       </div>
