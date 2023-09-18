@@ -42,13 +42,13 @@ function Login() {
 
         <div className="form-row">
           <div className="remember-me">
-            <label >
+            <label>
               <input
                 type="checkbox"
                 checked={rememberMe}
                 onChange={() => setRememberMe(!rememberMe)}
               />
-              Remember Me
+              <span className='rm-gap'>Remember Me</span>
             </label>
             <label className="forgot-password">
               <Link to='/forgotpassword'>Forgot Password</Link>

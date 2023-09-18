@@ -27,6 +27,7 @@ body{
     margin-top: 10%;
     margin: 50px;
     padding: 20px;
+    padding-top: 40px;
     min-height: 350px;
     width: 500px;
     border: 1px solid #ffffff;
@@ -61,11 +62,15 @@ body{
   
   .remember-me {
     display: flex;
-    padding-left: 30px;
+    padding-left: 25px;
     /* font-family: 'Times New Roman', Times, serif; */
     align-items: left;
     margin-bottom: 10px;
     font-weight: bold;
+  }
+
+  .rm-gap{
+    padding-left: 10px;
   }
   
   .forgot-password{ 

@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route index element={<SignUp/>} />
+          <Route index element={<Login/>} />
           <Route path="/Login" Component={Login} />
           <Route path="/resetpassword" Component={ResetPassword} />
           <Route path="/forgotpassword" Component={ForgotPassword} />   
