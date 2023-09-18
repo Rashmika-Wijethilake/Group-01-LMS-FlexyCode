@@ -1,6 +1,11 @@
-body {
-  background-color: #e2effc; /* Replace with your preferred background color */
+/* Login.css */
+
+.body{
+  margin: 0;
+  padding: 0;
+  background-color: #EAF4FF; /* Replace with your desired background color */
 }
+
 
 .img {
   max-width: 250px;
@@ -44,7 +49,7 @@ body {
   }
   
   .input-container input {
-    width: 85%;
+    width: 90%;
     padding: 12px;
     border: 3px solid #ccc;
     border-radius: 12px;
@@ -53,18 +58,18 @@ body {
   
   .remember-me {
     display: flex;
-    padding-left: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    align-items: center;
+    padding-left: 30px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    align-items: left;
     margin-bottom: 10px;
+    font-weight: bold;
   }
   
-  .forgot-password a {
-    padding-right: 20px;
+  .forgot-password{ 
+    padding-left: 140px;
     align-items: right;
     margin-bottom: 10px;
     color: #4898ee;
-    padding-left: 180px;
   }
 
   .form-row {
@@ -73,9 +78,10 @@ body {
     align-items: center; /* Align items vertically in the middle */
     justify-content: space-between; /* Add space between the two elements */
   }
-  
+
+ 
   .login-button {
-    background-color: #4898ee;
+    background-color: #47A2FF;
     color: white;
     border: none;
     border-radius: 12px;

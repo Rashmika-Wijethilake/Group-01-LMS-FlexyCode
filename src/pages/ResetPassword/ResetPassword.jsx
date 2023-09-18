@@ -16,31 +16,28 @@ function ResetPassword() {
   return (
     <div className='wrapper bg-dark d-flex align-items-center justify-content-center w-100'>
       <div className="reset-password">
-        <h5 className='heading mb-4'>Reset your password for the EVIDIO Learning Management System</h5>
+        <h5 className='heading'>Reset your password for the EVIDIO Learning Management System</h5>
 
         <form className='need-validation'>
-            <div className='form-group was-validated mb-4'>
+            <div className='form-group '>
               <div className="new-password">
                 <input type={showPassword ? "text" : "password"} id="password" name="password" placeholder="New Password" className='form-control' required></input>
                 <div className='password-toggle-icon1' onClick={togglePasswordVisibility}>
                  <FontAwesomeIcon icon={showPassword ? faEyeSlash : faEye} />
                 </div>
-                <div className='invalid-feedback'>
-                    Password should contain 8 characters
-                </div>
               </div>
             </div>
 
-            <div className='form-group was-validated mb-4'>
+            <div className='form-group'>
               <div className="confirm-password">
                 <input type={showPassword ? "text" : "password"} id="password" name="newPassword" placeholder="Re enter your new password" className='form-control' required></input>
                 <div className='password-toggle-icon2' onClick={togglePasswordVisibility}>
                 <FontAwesomeIcon icon={showPassword ? faEyeSlash : faEye} />
-              </div>
+               </div>
               </div>
             </div>
 
-            <button type="submit" className='btn-create btn btn-info w-100 mt-2'>Create</button>
+            <button type="submit" className='btn-rp'>Create</button>
         </form>
       </div>
     </div>

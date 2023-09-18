@@ -1,40 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './SignUp.css';
+import spimage from './../../assets/spimage.png';
+import invertedclose from './../../assets/invertedclose.png';
+import invertedopen from './../../assets/invertedopen.png';
+import upicon from './../../assets/upicon.png';
 
 export default function SignUp() {
   return (
     
-<div class="wrapper"> 
-
-<div className='dashboard'>
-      <div className='left-corner'>
+<div class="wrapper-sp"> 
+<div  className='left-corner'>
         <div>
             <div className='edu-image1'>
-                <img src= "./images/edu.png" alt=""/>
+                <img src= {upicon} alt=""/>
             </div>
             <span className='main-description'>Revolutionize Learning With <br/>Our Cutting-Edge LMS Platform</span> 
         </div>
         
         <div className='middle-image'>
-            <img src= "./images/edu2_new.png" alt=""/>
+            <img src={spimage} alt=""/>
         </div>
 
         <div className='open-inverted'>
-            <img src= "./images/Open_inverted.png" alt=""/>
+            <img src= {invertedclose} alt=""/>
         </div>
 
         <span className='other-description'>Unlock the Future of Education and Training with <br/>Seamless Online Learning Solutions</span>
         
         <div className='close-inverted'>
-            <img src= "./images/Close_inverted.png" alt=""/>
-        </div>
-
-        </div>       
+            <img src= {invertedopen} alt=""/>
+        </div>      
     </div>
+
+
   
  <div class="signup-box">  
-     
+      
     <div class="header">
        <h1>Create Your Account</h1>
     </div>

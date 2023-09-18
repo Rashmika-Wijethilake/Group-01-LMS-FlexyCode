@@ -1,3 +1,4 @@
+/* right side */
 body{
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@ body{
      
 }
 
-.wrapper{
+.wrapper-sp{
     position: relative;
     display: flex; 
     width: 100%;
@@ -22,14 +23,13 @@ body{
 }*/
 
 .signup-box{
-
-   justify-content: center;
-    margin:auto;
-    width: 360px;
-    height:620px;
-    border-radius:3px;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+    height: 620px;
+    border-radius: 3px;
     background-color: white;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     border-radius: 15px;
 }
 .header{
@@ -43,59 +43,65 @@ padding-top: 10px;
 .input-label label{
     display:block;
     padding-top: 20px;
- 
-    
+    font-weight: bold;    
 }
 
+
+
 .input-label input{
-    width: 80%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 3px solid #ccc;
+    border-radius: 12px;
     
 }
 .accounts-type{
     margin-top: 10px; 
+    font-weight: bold;
+    
+    
 }
 .accounts-type label{
     padding-right: 35px;
 }
 .all-terms{
     margin-top: 10px;
+    font-weight: bold;
+}
+
+.all-terms label{
+    margin-left: 15px;
+    font-weight: bold;
 }
 
 .btn{
     margin-top: 20px;
     justify-content: center;
-    background-color: #20b6ed;
+    background-color: #47A2FF;
     color: aliceblue;
     border: none;
-    width: 90%;
-    height: 40px;
+    width: 100%;
+    height: 50px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.2em;
+    
   
 }
 
 .signup-link{
     margin-top: 20px;
-text-align: center;}
+    text-align: center;}
 
-
-.dashboard {
-    background-color: #f0f0f0;
-    padding: 20px;
-    width: auto;
-    height: auto;
-}
+/* left side */
 
 .left-corner {
-    background-color: #ADD6FF;
-    width: 50%;
+    background-color: #E3EEFF;
+    width: 50%; /* Adjust the width to take up half of the available space */
     text-align: center;
+    padding: 20px; 
 }
   
 .edu-image1 img {

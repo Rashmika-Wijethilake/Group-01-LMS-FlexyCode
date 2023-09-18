@@ -12,7 +12,7 @@ function Login() {
 
   return (
 
-    <div>
+<div>
     <div className='img' >
       <img src="loginicon.png" alt="Logo" />
     </div>
@@ -63,8 +63,8 @@ function Login() {
       </div>
 
     </div>
-   </div>
-   </div>
+  </div>
+</div>
 
    
   );
