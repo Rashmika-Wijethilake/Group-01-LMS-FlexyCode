@@ -34,7 +34,7 @@ export default function SignUp() {
     </div>
 
 
-  
+<div  className='right-corner'> 
  <div class="signup-box">  
       
     <div class="header">
@@ -76,6 +76,7 @@ export default function SignUp() {
        </div>
  
   </div>
+</div>
 </div>
        
   );
