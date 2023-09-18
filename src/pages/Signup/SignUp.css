@@ -23,9 +23,8 @@ body{
 }*/
 .right-corner{
     background-color: white;
-    width: 50%; /* Adjust the width to take up half of the available space */
-    text-align: center;
-    padding: 20px;
+    width: 50%; /* Adjust the width to take up half of the available space */  
+    padding: 30px;
 }
 .signup-box{
     justify-content: center;
