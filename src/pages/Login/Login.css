@@ -1,17 +1,12 @@
 /* Login.css */
 
-body{
-  margin: 0;
-  padding: 0;
-  background-color: #EAF4FF; 
-}
-
 .centered-content {
   display: flex;
   flex-direction: column;
   align-items: center; /* Center horizontally */
   justify-content: center; /* Center vertically */
   height: 100vh; /* Adjust the height based on your requirements */
+  background-color: #EAF4FF; 
 }
 
 
@@ -19,7 +14,6 @@ body{
   max-width: 250px;
   width: 350px;
   margin: 0 auto;
-  margin-top: 3%;
   align-items: center;
 }
 
