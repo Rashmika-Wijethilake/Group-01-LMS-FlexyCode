@@ -49,10 +49,16 @@ export default function SignUp() {
      </div>
       <div class="accounts-type">
        <label>Account Type</label>
+      <span>
        <input type="radio" id="admin" name="admin" value="Admin"></input>
-       <label for="admin">Admin</label>
+       <label className="label-p" for="admin">Admin</label>
+       </span>
+
+       <span>
        <input type="radio" id="student" name="student" value="Student"></input>
-       <label for="student">Student</label>
+       <label  className="label-p" for="student">Student</label>
+       </span>
+
      </div> 
        
     <div class="input-label">
@@ -69,7 +75,7 @@ export default function SignUp() {
  <div class="all-terms"><input type="checkbox" id="checkbox" name="checkbox"></input>
    <label>I agree to All terms & Conditions</label></div> 
 
-       <button class="btn">Signup</button>
+       <button class="btn-su">Sign up</button>
 
        <div class="signup-link">
          <p>Already have an Account? <Link to='/Login'>Sign in</Link></p>

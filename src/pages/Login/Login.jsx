@@ -20,7 +20,7 @@ function Login() {
 
       <div className="login-container">
         <p1 className='bold-paragraph'>Hello There, Welcome back</p1>
-        <br/><br/><p1 className='bold-paragraph1'> Please enter your details</p1>
+        <br/><p1 className='bold-paragraph1'> Please enter your details</p1>
         <form>
         <div className="input-container">
           <input

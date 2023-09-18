@@ -7,7 +7,7 @@ export default function ForgotPassword() {
     return ( 
         <div className='wrapper bg-dark d-flex align-items-center justify-content-center w-100'>
         <div className="forgot-password-fp">
-          <h5 className='heading'>Enter the email address associated with your account and we'll sent you a code to reset your password</h5>
+          <h5 className='heading'>Enter the email address associated with your account and we'll sent you a code to reset your password.</h5>
   
           <form className='need-validation'>
               <div>
