@@ -21,7 +21,12 @@ body{
     height: 100; 
     object-fit: cover;
 }*/
-
+.right-corner{
+    background-color: white;
+    width: 50%; /* Adjust the width to take up half of the available space */
+    text-align: center;
+    padding: 20px;
+}
 .signup-box{
     justify-content: center;
     margin: auto;
